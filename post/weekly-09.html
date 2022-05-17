@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="本周见闻Web 发展中的 100 个重大事件自 2008 年 Chrome 浏览器正式发布以来，到现在 Chrome 已经发展到第 100 个版本了，为此还开发了一个网站，该网站展示了从 2008 年 Chrome 浏览器发布以来的 100 个对于 Web 发展的重大里程碑事件，譬如 GitHub 一周年、Node.js 发布、Flexbox 提案等，有兴趣可以看看。 我们如何失去 54K 的 G">
+<meta property="og:type" content="article">
+<meta property="og:title" content="周刊第9期：Web 发展中的 100 个重大事件">
+<meta property="og:url" content="https://4ilde.github.io/post/weekly-09.html">
+<meta property="og:site_name" content="4ilde Blog">
+<meta property="og:description" content="本周见闻Web 发展中的 100 个重大事件自 2008 年 Chrome 浏览器正式发布以来，到现在 Chrome 已经发展到第 100 个版本了，为此还开发了一个网站，该网站展示了从 2008 年 Chrome 浏览器发布以来的 100 个对于 Web 发展的重大里程碑事件，譬如 GitHub 一周年、Node.js 发布、Flexbox 提案等，有兴趣可以看看。 我们如何失去 54K 的 G">
+<meta property="og:locale">
+<meta property="og:image" content="https://gd4ark-1258805822.cos.ap-guangzhou.myqcloud.com/images/20190822181732.png">
+<meta property="og:image" content="https://gd4ark-1258805822.cos.ap-guangzhou.myqcloud.com/images/1604181361-5a1397cca5644_articlex.png">
+<meta property="og:image" content="https://gd4ark-1258805822.cos.ap-guangzhou.myqcloud.com/images202204181217957.gif">
+<meta property="article:published_time" content="2022-04-16T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-05-17T05:28:21.000Z">
+<meta property="article:author" content="4ilde">
+<meta property="article:tag" content="weekly">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://gd4ark-1258805822.cos.ap-guangzhou.myqcloud.com/images/20190822181732.png">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>周刊第9期：Web 发展中的 100 个重大事件</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <script>localStorage.getItem("dark_mode")==="dark"&&document.write(`<link rel="stylesheet" href="${location.origin}/css/dark.css">`)</script>
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+    <meta name="google-site-verification" content="DwDg4EuywHWNZUkTC7sG0WGv_UQekM4uRtOoaGuDJHc" />
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="4ilde Blog" type="application/atom+xml">
+<link rel="alternate" href="/rss.xml" title="4ilde Blog" type="application/rss+xml">
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about">About</a></li><!--
+     --><!--
+       --><li><a href="/archives">Writing</a></li><!--
+     --><!--
+       --><li><a href="/weekly">Weekly</a></li><!--
+     --><!--
+       --><li><a href="/tags">Tags</a></li><!--
+     --><!--
+       --><li><a href="/search">Search</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="Previous post" href="/post/weekly-10.html"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="Next post" href="/post/weekly-08.html"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon"><i class="fa fa-moon" id="dark-btn" aria-hidden="true" onmouseover="$('#i-dark').toggle()" onmouseout="$('#i-dark').toggle()"></i></a></li>
+        <li><a class="icon" target="_blank" rel="noopener" href="https://4ark.me/atom.xml" aria-label="rss"><i class="fas fa-rss"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-dark" class="info" style="display: none;">Switch mode</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://4ilde.github.io/post/weekly-09.html"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://4ilde.github.io/post/weekly-09.html&text=周刊第9期：Web 发展中的 100 个重大事件"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://4ilde.github.io/post/weekly-09.html&title=周刊第9期：Web 发展中的 100 个重大事件"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://4ilde.github.io/post/weekly-09.html&is_video=false&description=周刊第9期：Web 发展中的 100 个重大事件"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=周刊第9期：Web 发展中的 100 个重大事件&body=Check out this article: https://4ilde.github.io/post/weekly-09.html"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://4ilde.github.io/post/weekly-09.html&title=周刊第9期：Web 发展中的 100 个重大事件"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://4ilde.github.io/post/weekly-09.html&title=周刊第9期：Web 发展中的 100 个重大事件"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://4ilde.github.io/post/weekly-09.html&title=周刊第9期：Web 发展中的 100 个重大事件"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://4ilde.github.io/post/weekly-09.html&title=周刊第9期：Web 发展中的 100 个重大事件"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://4ilde.github.io/post/weekly-09.html&name=周刊第9期：Web 发展中的 100 个重大事件&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://4ilde.github.io/post/weekly-09.html&t=周刊第9期：Web 发展中的 100 个重大事件"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%AC%E5%91%A8%E8%A7%81%E9%97%BB"><span class="toc-number">1.</span> <span class="toc-text">本周见闻</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Web-%E5%8F%91%E5%B1%95%E4%B8%AD%E7%9A%84-100-%E4%B8%AA%E9%87%8D%E5%A4%A7%E4%BA%8B%E4%BB%B6"><span class="toc-number">1.1.</span> <span class="toc-text">Web 发展中的 100 个重大事件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E5%A4%B1%E5%8E%BB-54K-%E7%9A%84-GitHub-stars"><span class="toc-number">1.2.</span> <span class="toc-text">我们如何失去 54K 的 GitHub stars</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B-tips"><span class="toc-number">2.</span> <span class="toc-text">一些 tips</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Chromium-%E7%9A%84-DNS-%E7%BC%93%E5%AD%98%E6%97%B6%E9%97%B4"><span class="toc-number">2.1.</span> <span class="toc-text">Chromium 的 DNS 缓存时间</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ECMAScript-%E6%8F%90%E6%A1%88-%E9%80%9A%E8%BF%87%E5%A4%8D%E5%88%B6%E6%94%B9%E5%8F%98%E6%95%B0%E7%BB%84"><span class="toc-number">2.2.</span> <span class="toc-text">ECMAScript 提案 - 通过复制改变数组</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CSS-%E7%88%B6%E9%80%89%E6%8B%A9%E5%99%A8-has"><span class="toc-number">2.3.</span> <span class="toc-text">CSS 父选择器 - :has()</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E4%BA%AB%E6%96%87%E7%AB%A0"><span class="toc-number">3.</span> <span class="toc-text">分享文章</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#React-18-%E5%85%81%E8%AE%B8%E7%BB%84%E4%BB%B6%E6%B8%B2%E6%9F%93-Undefined"><span class="toc-number">3.1.</span> <span class="toc-text">React 18 允许组件渲染 Undefined</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JavaScript-%E4%B8%AD-RegExp-%E4%B8%8E-String-replace-%E7%9A%84%E7%A5%9E%E5%A5%87%E7%89%B9%E6%80%A7"><span class="toc-number">3.2.</span> <span class="toc-text">JavaScript 中 RegExp 与 String.replace 的神奇特性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9C%A8%E7%94%A8%E6%88%B7%E7%A6%BB%E5%BC%80%E9%A1%B5%E9%9D%A2%E6%97%B6%E5%8F%AF%E9%9D%A0%E5%9C%B0%E5%8F%91%E9%80%81-HTTP-%E8%AF%B7%E6%B1%82"><span class="toc-number">3.3.</span> <span class="toc-text">在用户离开页面时可靠地发送 HTTP 请求</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%89%E8%B6%A3%E7%9A%84%E9%93%BE%E6%8E%A5"><span class="toc-number">4.</span> <span class="toc-text">有趣的链接</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        周刊第9期：Web 发展中的 100 个重大事件
+    </h1>
+
+
+
+    <div class="meta">
+      <span
+        class="author"
+        itemprop="author"
+        itemscope
+        itemtype="http://schema.org/Person"
+      >
+        <span itemprop="name"
+          >4ilde</span
+        >
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2022-04-16T16:00:00.000Z" itemprop="datePublished">2022-04-17</time>
+        
+      
+    </div>
+
+ 
+      
+        <div class="article-tag">
+            <i class="fa fa-calendar-week"></i>
+            <a href="/weekly">Weekly</a>
+        </div>
+      
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody"><h2 id="本周见闻"><a href="#本周见闻" class="headerlink" title="本周见闻"></a>本周见闻</h2><h3 id="Web-发展中的-100-个重大事件"><a href="#Web-发展中的-100-个重大事件" class="headerlink" title="Web 发展中的 100 个重大事件"></a><a target="_blank" rel="noopener" href="https://developer.chrome.com/100/">Web 发展中的 100 个重大事件</a></h3><p>自 2008 年 Chrome 浏览器正式发布以来，到现在 Chrome 已经发展到第 100 个版本了，为此还开发了一个网站，该网站展示了从 2008 年 Chrome 浏览器发布以来的 100 个对于 Web 发展的重大里程碑事件，譬如 GitHub 一周年、Node.js 发布、Flexbox 提案等，有兴趣可以看看。</p>
+<h3 id="我们如何失去-54K-的-GitHub-stars"><a href="#我们如何失去-54K-的-GitHub-stars" class="headerlink" title="我们如何失去 54K 的 GitHub stars"></a><a target="_blank" rel="noopener" href="https://httpie.io/blog/stardust">我们如何失去 54K 的 GitHub stars</a></h3><p>相信大家都知道 <a target="_blank" rel="noopener" href="https://github.com/httpie/httpie">httpie</a> 这个命令行工具，近日，由于维护者误操作将仓库设置为私有仓库，导致 54K 的 stars 被清零，经与 GitHub 官方沟通后，被告知无法恢复，截止今日（2022-04-17）已经重新涨回 12.7K。</p>
+<p>httpie 在吐槽之余，还顺便教了一下 GitHub 做产品：</p>
+<ol>
+<li>UI/UX 设计，在设置为私有仓库时，告知用户会损失哪些数据。</li>
+<li>数据库的软删除设计。</li>
+</ol>
+<h2 id="一些-tips"><a href="#一些-tips" class="headerlink" title="一些 tips"></a>一些 tips</h2><h3 id="Chromium-的-DNS-缓存时间"><a href="#Chromium-的-DNS-缓存时间" class="headerlink" title="Chromium 的 DNS 缓存时间"></a><a target="_blank" rel="noopener" href="https://textslashplain.com/2022/03/31/chromiums-dns-cache/">Chromium 的 DNS 缓存时间</a></h3><p>Chromium 的 DNS 缓存时间大概在一分钟左右：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Default TTL for successful resolutions with ProcTask.</span></span><br><span class="line"><span class="keyword">const</span> unsigned kCacheEntryTTLSeconds = <span class="number">60</span>;</span><br></pre></td></tr></table></figure>
+
+<p>DNS 的解析过程比较复杂，有兴趣可以看这个：<a target="_blank" rel="noopener" href="https://source.chromium.org/chromium/chromium/src/+/main:net/dns/README.md;drc=761feeebc0214d55f2cff89f5904f5521ab02610">Chrome Host Resolution</a>，或者简单看下这两张图：</p>
+<p><img src="https://gd4ark-1258805822.cos.ap-guangzhou.myqcloud.com/images/20190822181732.png" alt="img"></p>
+<p><img src="https://gd4ark-1258805822.cos.ap-guangzhou.myqcloud.com/images/1604181361-5a1397cca5644_articlex.png" alt="img"></p>
+<p>上图源自笔者一篇旧文：<a target="_blank" rel="noopener" href="https://4ark.me/post/b6c7c0a2.html">在浏览器输入 URL 回车之后发生了什么（超详细版）</a></p>
+<p>如果想要查看浏览器 DNS 配置的详细信息，可以按照以下流程：</p>
+<ol>
+<li>打开：chrome://net-export，开始记录，打开任意一个网站发起请求，导出 JSON 文件。</li>
+<li>在 <a target="_blank" rel="noopener" href="https://netlog-viewer.appspot.com/#import">NetLog Viewer</a> 导入查看，DNS 栏目。</li>
+</ol>
+<h3 id="ECMAScript-提案-通过复制改变数组"><a href="#ECMAScript-提案-通过复制改变数组" class="headerlink" title="ECMAScript 提案 - 通过复制改变数组"></a><a target="_blank" rel="noopener" href="https://2ality.com/2022/04/change-array-by-copy.html">ECMAScript 提案 - 通过复制改变数组</a></h3><p>这篇博客文章描述了 Robin Ricard 和 Ashley Claymore 提出的 ECMAScript 提案 <a target="_blank" rel="noopener" href="https://github.com/tc39/proposal-change-array-by-copy">“Change Array by copy”</a>。它为 Array 和 TypedArray 提出了四种新方法：</p>
+<ul>
+<li><code>.toReversed()</code></li>
+<li><code>.toSorted()</code></li>
+<li><code>.toSpliced()</code></li>
+<li><code>.with()</code></li>
+</ul>
+<p>大多数 Array 方法是无副作用的 – 它们不会更改调用它们的数组，例如：<code>filter</code>、<code>map</code> 等。</p>
+<p>但也有副作用的方法，例如：<code>reverse</code>、<code>sort</code>、<code>splice</code>。</p>
+<p>因此新加入的三个方法为上述三种方法提供了无副作用版本，除此之外还引入了一个新方法：<code>with。</code></p>
+<p>它是下面这段代码的无副作用版本：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">arr[index] = value</span><br><span class="line"></span><br><span class="line"><span class="comment">// 无副作用</span></span><br><span class="line">arr.with(index, value) <span class="comment">// 返回一个新的 array</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="CSS-父选择器-has"><a href="#CSS-父选择器-has" class="headerlink" title="CSS 父选择器 - :has()"></a><a target="_blank" rel="noopener" href="https://ishadeed.com/article/css-has-parent-selector/">CSS 父选择器 - :has()</a></h3><p>在以前， 我们无法根据父元素是否包含某个子元素时决定父元素的样式。</p>
+<p>譬如，我们希望在 <code>.card</code> 有子元素 <code>img</code> 时设置特定样式：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;card&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;a.jpg&quot;</span> &gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;card&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>card text<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>我们可以使用 <code>:has()</code>：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.card</span><span class="selector-pseudo">:has</span>(<span class="selector-tag">img</span>) &#123;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">1px</span> solid red;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>其实 <code>:has()</code> 不止可以用于检查父元素是否包含某个子元素，还可以检查后面的元素：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// 检查 <span class="selector-tag">h2</span> 后面跟着 <span class="selector-tag">p</span></span><br><span class="line"><span class="selector-class">.card</span> <span class="selector-tag">h2</span><span class="selector-pseudo">:has</span>(+ <span class="selector-tag">p</span>) &#123; &#125;</span><br></pre></td></tr></table></figure>
+
+<p>但遗憾的是，截止目前（2022-04-18）只有 Safari 15.4和 Chrome Canary 支持该特性，详见 <a target="_blank" rel="noopener" href="https://caniuse.com/css-has">caniuse</a>。</p>
+<h2 id="分享文章"><a href="#分享文章" class="headerlink" title="分享文章"></a>分享文章</h2><h3 id="React-18-允许组件渲染-Undefined"><a href="#React-18-允许组件渲染-Undefined" class="headerlink" title="React 18 允许组件渲染 Undefined"></a><a target="_blank" rel="noopener" href="https://blog.saeloun.com/2022/04/14/react-18-allows-components-to-render-undfined.html">React 18 允许组件渲染 Undefined</a></h3><p>在 React 18 之前，如果我们这样渲染了一个组件：</p>
+<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Shape.jsx</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">&#x27;react&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> Circle <span class="keyword">from</span> <span class="string">&#x27;./Circle&#x27;</span>;</span><br><span class="line"><span class="keyword">import</span> Square <span class="keyword">from</span> <span class="string">&#x27;./Square&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Shape</span>(<span class="params">&#123;type&#125;</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(type === <span class="string">&#x27;circle&#x27;</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="xml"><span class="tag">&lt;<span class="name">Circle</span> /&gt;</span></span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">if</span>(type === <span class="string">&#x27;square&#x27;</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="xml"><span class="tag">&lt;<span class="name">Square</span> /&gt;</span></span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> Shape;</span><br><span class="line"></span><br><span class="line"><span class="comment">//App.jsx</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">App</span>(<span class="params"></span>) : <span class="title">ComponentType</span> </span>&#123;</span><br><span class="line">  <span class="keyword">return</span>(<span class="xml"><span class="tag">&lt;<span class="name">Shape</span> <span class="attr">type</span>=<span class="string">&quot;rectangle&quot;</span>/&gt;</span></span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>由于 Shape 组件返回 Undefined，我们将得到以下报错信息：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Error: Shape(...): Nothing was returned from render. This usually means a <span class="built_in">return</span> statement is missing. Or, to render nothing, <span class="built_in">return</span> null.</span><br></pre></td></tr></table></figure>
+
+<p>为了修复报错，我们必须显式返回 <code>null</code>：</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">import React from &#x27;react&#x27;;</span><br><span class="line">import Circle from &#x27;./Circle&#x27;;</span><br><span class="line">import Square from &#x27;./Square&#x27;;</span><br><span class="line"></span><br><span class="line">function Shape(&#123;type&#125;) &#123;</span><br><span class="line">  if(type <span class="comment">=== &#x27;circle&#x27;) &#123;</span></span><br><span class="line">    return &lt;Circle /&gt;</span><br><span class="line">  &#125;</span><br><span class="line">  if(type <span class="comment">=== &#x27;square&#x27;) &#123;</span></span><br><span class="line">    return &lt;Square /&gt;</span><br><span class="line">  &#125;</span><br><span class="line"><span class="addition">+ return null;</span></span><br><span class="line">&#125;</span><br><span class="line">export default Shape;</span><br></pre></td></tr></table></figure>
+
+<p>但随着 React 18 的发布，即便组件未返回任何内容，也不会引发运行时错误。</p>
+<p>基于以下三点原因，使 React 18 作出此改动：</p>
+<ol>
+<li><p>与其抛出错误，不如使用 Lint 工具</p>
+<ul>
+<li>渲染 Undefined 报错这个机制是在 2017 年加入的，当时类型系统和 Lint 工具还没开始流行，但现在我们完全可以使用 ESLint 等工具帮我们处理这些类型的错误。</li>
+</ul>
+</li>
+<li><p>很难创建正确的类型，考虑以下代码：</p>
+<figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Shape.jsx </span></span><br><span class="line"><span class="keyword">const</span> Shape = (&#123; children &#125;: ComponentType): <span class="function"><span class="params">ComponentType</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> children;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//App.jsx</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">App</span>(<span class="params"></span>): <span class="title">ComponentType</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> (<span class="xml"><span class="tag">&lt;<span class="name">Shape</span> /&gt;</span></span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>我们必须在 <code>ComponentType</code> 类型将 Undefined 排除在外，但更好的解决方法就是允许渲染 Undefined。</p>
+</li>
+<li><p>保持一致的行为</p>
+<ul>
+<li>因为最近 Suspense 的 fallbacks <a target="_blank" rel="noopener" href="https://github.com/reactwg/react-18/discussions/72">允许渲染 Undefined</a>，所以保持一致。</li>
+</ul>
+</li>
+</ol>
+<h3 id="JavaScript-中-RegExp-与-String-replace-的神奇特性"><a href="#JavaScript-中-RegExp-与-String-replace-的神奇特性" class="headerlink" title="JavaScript 中 RegExp 与 String.replace 的神奇特性"></a><a target="_blank" rel="noopener" href="https://blog.huli.tw/2022/04/14/javascript-string-regexp-magic/">JavaScript 中 RegExp 与 String.replace 的神奇特性</a></h3><p>下面这段代码的执行结果是什么呢？</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> regexp = <span class="regexp">/huli/g</span></span><br><span class="line"><span class="keyword">var</span> str = <span class="string">&#x27;blog.huli.tw&#x27;</span></span><br><span class="line"><span class="keyword">var</span> str2 = <span class="string">&#x27;example.huli.tw&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(regexp.test(str)) <span class="comment">// ???</span></span><br><span class="line"><span class="built_in">console</span>.log(regexp.test(str2)) <span class="comment">// ???</span></span><br></pre></td></tr></table></figure>
+
+<p>相信很多人都会认为两个都是 true，但答案是 true 和 false，即便你写成这样，第二个输出结果也是 false：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> regexp = <span class="regexp">/huli/g</span></span><br><span class="line"><span class="keyword">var</span> str = <span class="string">&#x27;blog.huli.tw&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(regexp.test(str)) <span class="comment">// true</span></span><br><span class="line"><span class="built_in">console</span>.log(regexp.test(str)) <span class="comment">// false</span></span><br></pre></td></tr></table></figure>
+
+<p>这是因为 <a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test#%E5%BD%93%E8%AE%BE%E7%BD%AE%E5%85%A8%E5%B1%80%E6%A0%87%E5%BF%97%E7%9A%84%E6%AD%A3%E5%88%99%E4%BD%BF%E7%94%A8test">RegExp 是有副作用的</a>，以下为 MDN 原话：</p>
+<blockquote>
+<p>如果正则表达式设置了全局标志，<code>test() </code>的执行会改变正则表达式  <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastIndex"><code>lastIndex</code></a> 属性。连续地执行<code>test()</code>方法，后续的执行将会从 lastIndex 处开始匹配字符串，(<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec"><code>exec()</code></a> 同样改变正则本身的 <code>lastIndex 属性值</code>).</p>
+</blockquote>
+<p>以下代码证明了这点：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> regex = <span class="regexp">/foo/g</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// regex.lastIndex is at 0</span></span><br><span class="line">regex.test(<span class="string">&#x27;foo&#x27;</span>); <span class="comment">// true</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// regex.lastIndex is now at 3</span></span><br><span class="line">regex.test(<span class="string">&#x27;foo&#x27;</span>); <span class="comment">// false</span></span><br></pre></td></tr></table></figure>
+
+<p>再来看另外一段代码：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">&#x27;4ark&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> result = <span class="regexp">/\w+/</span>.test(str)</span><br><span class="line"></span><br><span class="line">str = <span class="string">&#x27;&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 我们还能拿得到 str 之前的值吗？</span></span><br></pre></td></tr></table></figure>
+
+<p>答案是可以的，因为 RegExp 上有一个神奇的属性：<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/RegExp/input#%E8%AF%AD%E6%B3%95">RegExp.input</a>。</p>
+<p>除此之外，还有这些：</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastMatch">RegExp.lastMatch</a></li>
+<li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastParen">RegExp.lastParen</a></li>
+<li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/leftContext">RegExp.leftContext</a></li>
+<li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/rightContext">RegExp.rightContext</a></li>
+</ol>
+<p>但是需要注意，这些特性是非标准的，请尽量不要在生产环境中使用它！</p>
+<p>另外原文还有关于 String.replace 的神奇特性：<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/replace#%E4%BD%BF%E7%94%A8%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%BD%9C%E4%B8%BA%E5%8F%82%E6%95%B0">使用字符串作为参数</a>，简单来说就是：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> str = <span class="string">&#x27;123&#123;n&#125;456&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 123A456</span></span><br><span class="line"><span class="built_in">console</span>.log(str.replace(<span class="string">&#x27;&#123;n&#125;&#x27;</span>, <span class="string">&#x27;A&#x27;</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment">// 123123A456，原本 &#123;n&#125; 的地方变成 123A</span></span><br><span class="line"><span class="built_in">console</span>.log(str.replace(<span class="string">&#x27;&#123;n&#125;&#x27;</span>, <span class="string">&quot;$`A&quot;</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment">// 123456A456，原本 &#123;n&#125; 的地方变成 456A</span></span><br><span class="line"><span class="built_in">console</span>.log(str.replace(<span class="string">&#x27;&#123;n&#125;&#x27;</span>, <span class="string">&quot;$&#x27;A&quot;</span>))</span><br></pre></td></tr></table></figure>
+
+<h3 id="在用户离开页面时可靠地发送-HTTP-请求"><a href="#在用户离开页面时可靠地发送-HTTP-请求" class="headerlink" title="在用户离开页面时可靠地发送 HTTP 请求"></a><a target="_blank" rel="noopener" href="https://css-tricks.com/send-an-http-request-on-page-exit/">在用户离开页面时可靠地发送 HTTP 请求</a></h3><p>我们希望在用户离开当前页面时发送一个 HTTP 请求，这是一个非常常见的需求，譬如页面埋点等。</p>
+<p>但根据 <a target="_blank" rel="noopener" href="https://developer.chrome.com/blog/page-lifecycle-api/">Chrome 页面的生命周期</a>显示，在页面终止运行时，无法保证进程内的请求会成功，因此，在离开页面时发送请求可能并不可靠，如果我们依赖这个行为，则会出现潜在的重大问题。</p>
+<p>通过下图可看出在页面离开时，请求会被取消掉：</p>
+<p><img src="https://gd4ark-1258805822.cos.ap-guangzhou.myqcloud.com/images202204181217957.gif" alt="在“网络”选项卡中查看 HTTP 请求失败"></p>
+<p>为什么请求会被取消呢？下面是 Chrome 对于页面终止生命周期（Terminated）的描述：</p>
+<blockquote>
+<p>A page is in the <em>terminated</em> state once it has started being unloaded and cleared from memory by the browser. No <a target="_blank" rel="noopener" href="https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task">new tasks</a> can start in this state, and in-progress tasks may be killed if they run too long.</p>
+<p><strong>Possible previous states:</strong><br><a target="_blank" rel="noopener" href="https://developer.chrome.com/blog/page-lifecycle-api/#state-hidden">hidden</a> <em>(via the <a target="_blank" rel="noopener" href="https://developer.chrome.com/blog/page-lifecycle-api/#event-pagehide"><code>pagehide</code></a> event)</em></p>
+<p><strong>Possible next states:</strong><br>NONE</p>
+</blockquote>
+<p>简单来说就是一个页面被卸载并从内存清除时，它就处于终止状态，在这种状态下，没有新的任务可以启动，正在运行的任务如果运行时间过长，则有可能会被 killed 掉。</p>
+<p>那我们应该如何解决这个问题呢？有下面几种方案：</p>
+<ol>
+<li>阻塞页面跳转，直到请求被响应：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">document</span>.getElementById(<span class="string">&#x27;link&#x27;</span>).addEventListener(<span class="string">&#x27;click&#x27;</span>, <span class="keyword">async</span> (e) =&gt; &#123;</span><br><span class="line">  e.preventDefault();</span><br><span class="line"></span><br><span class="line">  <span class="comment">// Wait for response to come back...</span></span><br><span class="line">  <span class="keyword">await</span> fetch(<span class="string">&quot;/log&quot;</span>, &#123;</span><br><span class="line">    <span class="attr">method</span>: <span class="string">&quot;POST&quot;</span>,</span><br><span class="line">    <span class="attr">headers</span>: &#123;</span><br><span class="line">      <span class="string">&quot;Content-Type&quot;</span>: <span class="string">&quot;application/json&quot;</span></span><br><span class="line">    &#125;, </span><br><span class="line">    <span class="attr">body</span>: <span class="built_in">JSON</span>.stringify(&#123;</span><br><span class="line">      <span class="attr">some</span>: <span class="string">&#x27;data&#x27;</span></span><br><span class="line">    &#125;),</span><br><span class="line">  &#125;);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// ...and THEN navigate away.</span></span><br><span class="line">   <span class="built_in">window</span>.location = e.target.href;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<p>但这样也有很明显的缺点，1）损害用户体验；2）没有包含所有页面离开行为，例如关闭浏览器 tab。</p>
+<ol start="2">
+<li>使用 Fetch 的 <a target="_blank" rel="noopener" href="https://fetch.spec.whatwg.org/#request-keepalive-flag">keepalive</a> 选项，使请求继续保留，即便页面已终止。</li>
+</ol>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;/some-other-page&quot; id=&quot;link&quot;&gt;Go to Page&lt;/a&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">  document.getElementById(&#x27;link&#x27;).addEventListener(&#x27;click&#x27;, (e) =&gt; &#123;</span><br><span class="line">    fetch(&quot;/log&quot;, &#123;</span><br><span class="line">      method: &quot;POST&quot;,</span><br><span class="line">      headers: &#123;</span><br><span class="line">        &quot;Content-Type&quot;: &quot;application/json&quot;</span><br><span class="line">      &#125;, </span><br><span class="line">      body: JSON.stringify(&#123;</span><br><span class="line">        some: &quot;data&quot;</span><br><span class="line">      &#125;), </span><br><span class="line"><span class="addition">+     keepalive: true</span></span><br><span class="line">    &#125;);</span><br><span class="line">  &#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>使用 <a target="_blank" rel="noopener" href="https://w3c.github.io/beacon/#sendbeacon-method">Navigator.sendBeacon()</a> 方法</li>
+</ol>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;/some-other-page&quot;</span> <span class="attr">id</span>=<span class="string">&quot;link&quot;</span>&gt;</span>Go to Page<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span></span><br><span class="line"><span class="javascript">  <span class="built_in">document</span>.getElementById(<span class="string">&#x27;link&#x27;</span>).addEventListener(<span class="string">&#x27;click&#x27;</span>, <span class="function">(<span class="params">e</span>) =&gt;</span> &#123;</span></span><br><span class="line"><span class="javascript">    <span class="keyword">const</span> blob = <span class="keyword">new</span> Blob([<span class="built_in">JSON</span>.stringify(&#123; <span class="attr">some</span>: <span class="string">&quot;data&quot;</span> &#125;)], &#123; <span class="attr">type</span>: <span class="string">&#x27;application/json; charset=UTF-8&#x27;</span> &#125;);</span></span><br><span class="line"><span class="javascript">    navigator.sendBeacon(<span class="string">&#x27;/log&#x27;</span>, blob));</span></span><br><span class="line"><span class="javascript">  &#125;);</span></span><br><span class="line"><span class="javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li>使用 a 标签的 <a target="_blank" rel="noopener" href="https://css-tricks.com/the-ping-attribute-on-anchor-links/">ping 属性</a></li>
+</ol>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;http://localhost:3000/other&quot;</span> <span class="attr">ping</span>=<span class="string">&quot;http://localhost:3000/log&quot;</span>&gt;</span></span><br><span class="line">  Go to Other Page</span><br><span class="line"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>点击该链接后，它会自动发出一个 POST 请求，并将 href 属性放在请求头中：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">headers: &#123;</span><br><span class="line">  &#x27;ping-from&#x27;: &#x27;http:<span class="comment">//localhost:3000/&#x27;,</span></span><br><span class="line">  &#x27;ping-to&#x27;: &#x27;http:<span class="comment">//localhost:3000/other&#x27;</span></span><br><span class="line">  &#x27;content-type&#x27;: &#x27;text/ping&#x27;</span><br><span class="line">  <span class="comment">// ...other headers</span></span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>
+
+<p>但有如下限制：</p>
+<ol>
+<li>只能在 a 标签上使用</li>
+<li>浏览器支持很好，但 Firefox 除外 :(</li>
+<li>无法自定义发送的数据…</li>
+</ol>
+<p>如果选择使用哪个方法呢？文中还给出了一个很好的提示：</p>
+<ul>
+<li>以下情况，推荐使用 fetch + keepalive<ul>
+<li>需要自定义 header 和请求内容</li>
+<li>希望发出 GET，而不只是 POST</li>
+<li>需要支持较旧的浏览器，并且已有 fetch 的 polyfill。</li>
+</ul>
+</li>
+<li>以下情况，推荐使用 <code>sendBeacon()</code><ul>
+<li>只是简单的请求，不需要太多的自定义内容</li>
+<li>喜欢更干净、更优雅的 API。</li>
+<li>您希望保证您的请求不会与应用程序中发送的其它高优先级的请求竞争。</li>
+</ul>
+</li>
+</ul>
+<h2 id="有趣的链接"><a href="#有趣的链接" class="headerlink" title="有趣的链接"></a>有趣的链接</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/Troland/how-javascript-works">Troland/how-javascript-works</a>：本文是翻译介绍 JavaScript 的工作原理的，该系列原文还在更新中，原文见<a target="_blank" rel="noopener" href="https://blog.sessionstack.com/tagged/tutorial">这里</a>。此为<a target="_blank" rel="noopener" href="https://xcoder.in/">死月</a>翻译的中文版。</li>
+</ul>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://webaim.org/projects/million/">The WebAIM Million</a> ：2022年关于前 100 万个主页的可访问性报告。</li>
+</ul>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://turborepo.org/">Turborepo</a>：Turborepo 是一个针对 JavaScript 和 TypeScript 代码库的高性能构建系统。</li>
+</ul>
+</div>
+  <hr class="copy-line" />
+  <div class="post-copyright">
+    <div class="copy-author">
+      <span>作者 :</span>
+      <span
+        >4ilde</span
+      >
+    </div>
+    <div class="copy-url">
+      <span>地址 :</span>
+      <a href="https://4ilde.github.io/post/weekly-09.html">https://4ilde.github.io/post/weekly-09.html</a>
+    </div>
+    <div class="copy-origin">
+      <span>来源 :</span>
+      <a href="https://4ilde.github.io">https://4ilde.github.io</a>
+    </div>
+    <div class="copy-license">著作权归作者所有，转载请联系作者获得授权。</div>
+  </div>
+</article>
+
+<div class="blog-post-comments">
+  <div id="load-disqus">
+    <p onclick="loadDisqus()" style="cursor: pointer; text-align: center">
+      🥳&nbsp;加载 Disqus 评论
+    </p>
+  </div>
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the comments.</noscript>
+  </div>
+</div>
+ 
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about">About</a></li>
+         
+          <li><a href="/archives">Writing</a></li>
+         
+          <li><a href="/weekly">Weekly</a></li>
+         
+          <li><a href="/tags">Tags</a></li>
+         
+          <li><a href="/search">Search</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%AC%E5%91%A8%E8%A7%81%E9%97%BB"><span class="toc-number">1.</span> <span class="toc-text">本周见闻</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Web-%E5%8F%91%E5%B1%95%E4%B8%AD%E7%9A%84-100-%E4%B8%AA%E9%87%8D%E5%A4%A7%E4%BA%8B%E4%BB%B6"><span class="toc-number">1.1.</span> <span class="toc-text">Web 发展中的 100 个重大事件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%88%91%E4%BB%AC%E5%A6%82%E4%BD%95%E5%A4%B1%E5%8E%BB-54K-%E7%9A%84-GitHub-stars"><span class="toc-number">1.2.</span> <span class="toc-text">我们如何失去 54K 的 GitHub stars</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B-tips"><span class="toc-number">2.</span> <span class="toc-text">一些 tips</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Chromium-%E7%9A%84-DNS-%E7%BC%93%E5%AD%98%E6%97%B6%E9%97%B4"><span class="toc-number">2.1.</span> <span class="toc-text">Chromium 的 DNS 缓存时间</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ECMAScript-%E6%8F%90%E6%A1%88-%E9%80%9A%E8%BF%87%E5%A4%8D%E5%88%B6%E6%94%B9%E5%8F%98%E6%95%B0%E7%BB%84"><span class="toc-number">2.2.</span> <span class="toc-text">ECMAScript 提案 - 通过复制改变数组</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CSS-%E7%88%B6%E9%80%89%E6%8B%A9%E5%99%A8-has"><span class="toc-number">2.3.</span> <span class="toc-text">CSS 父选择器 - :has()</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E4%BA%AB%E6%96%87%E7%AB%A0"><span class="toc-number">3.</span> <span class="toc-text">分享文章</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#React-18-%E5%85%81%E8%AE%B8%E7%BB%84%E4%BB%B6%E6%B8%B2%E6%9F%93-Undefined"><span class="toc-number">3.1.</span> <span class="toc-text">React 18 允许组件渲染 Undefined</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JavaScript-%E4%B8%AD-RegExp-%E4%B8%8E-String-replace-%E7%9A%84%E7%A5%9E%E5%A5%87%E7%89%B9%E6%80%A7"><span class="toc-number">3.2.</span> <span class="toc-text">JavaScript 中 RegExp 与 String.replace 的神奇特性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9C%A8%E7%94%A8%E6%88%B7%E7%A6%BB%E5%BC%80%E9%A1%B5%E9%9D%A2%E6%97%B6%E5%8F%AF%E9%9D%A0%E5%9C%B0%E5%8F%91%E9%80%81-HTTP-%E8%AF%B7%E6%B1%82"><span class="toc-number">3.3.</span> <span class="toc-text">在用户离开页面时可靠地发送 HTTP 请求</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%89%E8%B6%A3%E7%9A%84%E9%93%BE%E6%8E%A5"><span class="toc-number">4.</span> <span class="toc-text">有趣的链接</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://4ilde.github.io/post/weekly-09.html"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://4ilde.github.io/post/weekly-09.html&text=周刊第9期：Web 发展中的 100 个重大事件"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://4ilde.github.io/post/weekly-09.html&title=周刊第9期：Web 发展中的 100 个重大事件"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://4ilde.github.io/post/weekly-09.html&is_video=false&description=周刊第9期：Web 发展中的 100 个重大事件"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=周刊第9期：Web 发展中的 100 个重大事件&body=Check out this article: https://4ilde.github.io/post/weekly-09.html"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://4ilde.github.io/post/weekly-09.html&title=周刊第9期：Web 发展中的 100 个重大事件"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://4ilde.github.io/post/weekly-09.html&title=周刊第9期：Web 发展中的 100 个重大事件"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://4ilde.github.io/post/weekly-09.html&title=周刊第9期：Web 发展中的 100 个重大事件"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://4ilde.github.io/post/weekly-09.html&title=周刊第9期：Web 发展中的 100 个重大事件"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://4ilde.github.io/post/weekly-09.html&name=周刊第9期：Web 发展中的 100 个重大事件&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://4ilde.github.io/post/weekly-09.html&t=周刊第9期：Web 发展中的 100 个重大事件"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="dark-mobile" class="icon"><i class="fa fa-sun" id="dark-btn" aria-hidden="true"></i> Switch</a>
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2022
+    4ilde
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about">About</a></li><!--
+     --><!--
+       --><li><a href="/archives">Writing</a></li><!--
+     --><!--
+       --><li><a href="/weekly">Weekly</a></li><!--
+     --><!--
+       --><li><a href="/tags">Tags</a></li><!--
+     --><!--
+       --><li><a href="/search">Search</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-190615898-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-190615898-1');
+    </script>
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+<script type="text/javascript">
+  function loadDisqus() {
+    var disqus_shortname = 'https-4ark-me'
+
+    ;(function () {
+      var dsq = document.createElement('script')
+      dsq.type = 'text/javascript'
+      dsq.async = true
+      dsq.src =
+        '//' +
+        disqus_shortname +
+        '.disqus.com/embed.js'
+      ;(
+        document.getElementsByTagName('head')[0] ||
+        document.getElementsByTagName('body')[0]
+      ).appendChild(dsq)
+    })()
+
+    $('#load-disqus').hide()
+  }
+</script>
+
+<!-- utterances Comments -->
+
+</body>
+</html>
